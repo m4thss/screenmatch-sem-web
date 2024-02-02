@@ -1,6 +1,5 @@
 package br.com.screenmatch.model;
 
-import java.text.ParseException;
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
 
@@ -35,8 +34,7 @@ public class Episodio {
                 ", titulo='" + titulo + '\'' +
                 ", numeroEpisodio=" + numeroEpisodio +
                 ", avaliacao=" + avaliacao +
-                ", dataLancamento=" + dataLancamento
-                ;
+                ", dataLancamento=" + dataLancamento;
     }
 
     public LocalDate getDataLancamento() {
